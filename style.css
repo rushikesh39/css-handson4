@@ -1,0 +1,100 @@
+.offer{
+    text-decoration:underline;
+    text-align: center;
+    background-image:linear-gradient(45deg, red, green, yellow);
+}
+.menu{
+    text-align: center;
+    border: 3px solid red;
+    background-color: gainsboro;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.menuitem{
+    width: 20%;
+}
+.container{
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.flexitem{
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 30%;
+}
+.jee{
+    background-image:linear-gradient(45deg, red, yellow, red);
+    text-align: center;
+    text-decoration: underline;
+    height: 35px;
+}
+.container2{
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+    margin-top: 20px;
+    background-image: radial-gradient(#002fffc8 60%,#4caf50c7, transparent);
+}
+.fitem{
+    width: 20%;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    color: red;
+    height: 150px;
+    text-align: center;
+    text-decoration: underline;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    border: 2px solid gray;
+    margin-top: 20px;
+    color: white;
+    gap: 10px;
+    
+}
+.griditem1{
+    background-color: red;
+    grid-column-end: span 7;
+    text-align: center;
+}
+.griditem2{
+    background-color: lightgreen;
+    grid-column-end: span 2;
+    text-align: center;
+}
+.griditem3{
+    background-color: rgb(40, 134, 243);
+    grid-column-end: span 2;
+}
+.griditem4{
+    background-color: rgb(99, 75, 223);
+    grid-column-end: span 2;
+}
+.griditem5{
+    background-color: black;
+    grid-row-end: span 2;
+    width: 110px;
+}
+.griditem6{
+    background-color: chocolate;
+    grid-column-end: span 6;
+}
+.griditem7{
+    background-color: lightskyblue;
+    grid-column-end: span 7;
+    text-align: center;
+    color: black;
+}
